@@ -1,0 +1,61 @@
+/* Large desktop */
+@media (min-width: 1200px) {  }
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+
+
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
+	.container {
+		padding: 0;
+	}
+
+	.page-title {
+		padding: @spacing/2;
+	}
+
+	.photo {
+		padding: 0 @spacing/2;
+	}
+
+	.text-box {
+		padding: @spacing/2;
+	}
+
+	header {
+		margin-bottom: @spacing/2;
+	}
+
+	.intro-text {
+		padding: 0 @spacing/2;
+		font-size: 25px;
+		line-height: 1.2;
+		margin-bottom: @spacing/2;
+	}
+
+	.myths {
+		.text-box {
+			&:after {
+				top: -20px;
+				left: 50%;
+				margin-left: -32px;
+			}
+		}
+	}
+
+	.myth-title {
+		font-size: 50px;
+		padding: 0 @spacing/2;
+		margin-bottom: @spacing/2;
+	}
+
+}
